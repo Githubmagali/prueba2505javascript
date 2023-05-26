@@ -3,11 +3,11 @@
 //booleano
 const mayorQue = 1 > 2;
 
-console.log(mayorQue);
+//console.log(mayorQue);
 
 //arrays
 const arreglo =[1, 20, 205, {propiedad: 'valor'}];
-console.log(arreglo);
+//console.log(arreglo);
 
 //objeto   nombre; propiedad luisa; valor
 const persona = {
@@ -19,7 +19,7 @@ const persona = {
        tareaAsignada: 'relevamiento',
     },
 };
-console.log(persona.nombre);
+//console.log(persona.nombre);
 
 //function para reutilizar codigo y no escribir 20 veces lo mismo
 function hola(){
