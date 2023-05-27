@@ -17,7 +17,7 @@ if(pasaporte98 === 'Primera linea'){
 }else {
     codigoDeAc ='Pasaporte 4532'
 }
-console.log(codigoDeAc);
+//console.log(codigoDeAc);
 
 //operador ternario
 
@@ -25,4 +25,4 @@ const boleto8989 = 'VIP';
 
 const codigoDeBoleto = (boleto8989 === 'VIP') ? 'VIP-890' : 'REGULAR-5433';
 
-console.log(codigoDeBoleto);
+//console.log(codigoDeBoleto);

@@ -1,5 +1,5 @@
 //Sentencia return nos sirve para armar o devoolver info hacia afuera de la funcion
-
+/*
 const operacion234 =(elPrimerValor, numero1, numero2) =>{
     if(elPrimerValor === 'suma234'){
         console.log (numero1+numero2);
@@ -36,7 +36,7 @@ const operacion056 =(parametro0561, parametro0562, parametro0563) =>{
     //Almaceno a la invocacion en una variable
    
     console.log(Variable056);
-*/
+
 
     const operacion056 =(parametro0561, parametro0562, parametro0563) =>{
         let variableResultado; //variable
@@ -52,7 +52,7 @@ const operacion056 =(parametro0561, parametro0562, parametro0563) =>{
         }
         const Variable056 = operacion056('suma', 3, 4);// Al valor lo estoy retornando hacia la invocacions
         //Almaceno a la invocacion en una variable
-        console.log(Variable056);
+       // console.log(Variable056);
 
 
         const operacion00 = (parametro1, parametro2, parametro3) =>{
@@ -64,4 +64,5 @@ const operacion056 =(parametro0561, parametro0562, parametro0563) =>{
 
         const variable00 = operacion00 ('primerValor', 4,5);
         const variable02 = operacion00 ('segundoValor', 56,5);
-        console.log(variable00, variable02);
+       // console.log(variable00, variable02);
+      */

@@ -4,7 +4,7 @@
 
 
 var variableGlobal =' estoy en el archivo de scopeGlobal'; 
-console.log(variableGlobal);
+//console.log(variableGlobal);
 //como la variablee no esta dentro de una funcion es una varable glabal, lo que me permite
 //acceder desde cualquier parte del codigo
 

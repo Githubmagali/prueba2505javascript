@@ -8,19 +8,19 @@ function= funciones
 
 
 var edad = 26;
-console.log(edad);
+//console.log(edad);
 
 let nombre = 'Juana'; //con let(le podemos cambiar el valor) y const(no podemos cambiar el valor) podemos acceder a las variables solo dentro de un blocke
-console.log(nombre);
+//console.log(nombre);
 
 const correo = 'juana@mail.com';
-console.log(correo);
+//console.log(correo);
 
 const resultado = 4 + 4;
-console.log(resultado);
+//console.log(resultado);
 
 const nombre02 = 'Carlos ';
 const apellido02 ='Colombo';
 const nombreCompleto = nombre02+apellido02;
-console.log(nombreCompleto);
+//console.log(nombreCompleto);
 

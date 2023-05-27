@@ -23,7 +23,7 @@ const persona = {
 
 //function para reutilizar codigo y no escribir 20 veces lo mismo
 function hola(){
-    console.log('Hola');
+   // console.log('Hola');
 }
 hola();
 

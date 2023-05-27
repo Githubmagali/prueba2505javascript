@@ -5,7 +5,7 @@ function saludo(){
     console.log('Estoy invocando la funcion saludo que esta dentro del boton de pantalla');
 }
 
-
+/*
  const variable890 = saludo;
   console.log(variable890);
 
@@ -33,3 +33,4 @@ function saludo(){
   }
  
 //dentro de las () podemos def parametros
+*/
