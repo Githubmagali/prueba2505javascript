@@ -19,11 +19,11 @@ const persona = {
        tareaAsignada: 'relevamiento',
     },
 };
-//console.log(persona.nombre);
+console.log(persona.nombre);
 
 //function para reutilizar codigo y no escribir 20 veces lo mismo
 function hola(){
-   // console.log('Hola');
+  console.log('Hola');
 }
 hola();
 

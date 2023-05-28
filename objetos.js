@@ -17,12 +17,12 @@ const personaConPropiedades = {
 }; 
 //personaConPropiedades.desempeño(); //CON LOS () LE INDICAMOS QUE QUEREMOS EJECUTARLO
 
-//console.log(personaConPropiedades.idiomas);
-//console.log(personaConPropiedades['edad']);
+console.log(personaConPropiedades.idiomas);
+console.log(personaConPropiedades['edad']);
 
 
 const variable009 ='nombre';
-//console.log(personaConPropiedades[variable009]);
+console.log(personaConPropiedades[variable009]);
 
 personaConPropiedades.pais ='Chile';
-//console.log(personaConPropiedades);
+console.log(personaConPropiedades);

@@ -5,8 +5,8 @@ const variable789 = (def_un_parametro) => {
   console.log(`Hola ${def_un_parametro}`);
 };
 
-//funcion789('estoy argumentando  el contenido de la variable789');
-//funcion789('estoy argumentando por segunda vez el contenido de la variable789 ');
+variable789('estoy argumentando  el contenido de la variable789');
+variable789('estoy argumentando por segunda vez el contenido de la variable789 ');
 
 const variable346 = (
   parametro_definido = " la invocacion de la funcion vacia le pasamos este valor"
@@ -14,17 +14,16 @@ const variable346 = (
   console.log(`Hola ${parametro_definido}`);
 };
 
-//variable346('Estoy argumentando el contenido de la variable346');
-//variable346('Estoy argumentando el segundo contenido de la variable346');
-//variable346();
-//variable346('Soy un argumento que le da valor a la variable346');
+variable346('Estoy argumentando el contenido de la variable346');
+variable346('Estoy argumentando el segundo contenido de la variable346');
+variable346();variable346('Soy un argumento que le da valor a la variable346');
 
 // Multiples parametros
 
-//const operacion = (numero1, numero2, numero3) => {
-  //console.log(numero1 - numero2 + numero3);
-//};
-//operacion(56, 234, 45)
+const operacion = (numero1, numero2, numero3) => {
+console.log(numero1 - numero2 + numero3);
+};
+operacion(56, 234, 45)
 
 
 const operacion23 = (tipo, numero1, numero2) =>{

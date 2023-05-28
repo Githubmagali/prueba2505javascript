@@ -13,4 +13,4 @@ const scopeGlobal = () => {
     variableGlobal= 'el valor que le doy a la variable Global';
     console.log('Escribo desde'+ variableGlobal);
 };
-//scopeGlobal(); //esta afuera de la funcion
+scopeGlobal(); //esta afuera de la funcion

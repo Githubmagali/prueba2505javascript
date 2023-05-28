@@ -1,5 +1,5 @@
 
-/*const persona001= {
+const persona001= {
     edad:15,
     nacionalidad: 'Uruguay'
 };
@@ -8,7 +8,7 @@ if (persona001.edad >=18){
 }else {
     console.log('El usuario es menor de edad');
 }
-+
+
 //Combinando operadores
 
 const persona456 = {
@@ -58,4 +58,3 @@ if(persona002.pais === 'Mexico'){
 } else {
     console.log('El usuario es de otro pais');
 }
-*/

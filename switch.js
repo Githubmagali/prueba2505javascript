@@ -6,7 +6,7 @@ const usuario3232 = {
   pais: "Paraguay",
 };
 
-/*if(usuario3232.pais === 'Colombia'){
+if(usuario3232.pais === 'Colombia'){
     console.log('El usuario es de Colombia');
 }else if (usuario3232.pais === 'Rusia' ) {
     console.log('El usuario es de Rusia');
@@ -14,7 +14,7 @@ const usuario3232 = {
     console.log('El usuario es de Peru');
 }else{
     console.log('El usuario es de otro pais')
-}*/
+}
 
 switch (usuario3232.pais) {
   case "Canada":

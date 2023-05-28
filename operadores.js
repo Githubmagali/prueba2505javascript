@@ -4,11 +4,11 @@ const resultado4 = 20 % 18;
 let numero = 1; 
 numero--;
 
-//console.log(numero+2323);
+console.log(numero+2323);
 
 let diez =10;
 diez = diez -= 5;
-//console.log(diez);
+console.log(diez);
 
 //operadores de comparacion
 //=== ; igual sen el valor y en el tipo

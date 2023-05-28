@@ -19,5 +19,5 @@ var cantidadDeLetras = (nombre) =>{
   funcionAnidada();
 };
 
-//cantidadDeLetras('Segismundo Octavio');
-//console.log(numero);
+cantidadDeLetras('Segismundo Octavio');
+console.log(numero);
