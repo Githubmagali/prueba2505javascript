@@ -22,7 +22,30 @@ console.log(texto67.lastIndexOf('H'));
  const variable89 =variableDeclarada.indexOf('e');
  console.log(variableDeclarada.slice(variable89));
 
-const variable002 = 'Estoy usando triple variable con triple metodo';
-variable003= variable002.indexOf('u');
-variable004=variable002.lastIndexOf('m');
-console.log(variable002.slice(variable003));
+const variable002 = 'hola estoy en el segundo intento de usar doble metodo';
+const variable003= variable002.indexOf('u');
+const variable004=variable002.lastIndexOf('m');
+console.log(variable002.slice(variable003, variable004 +6));
+
+
+
+const variable078 = 'Hola, voy a usar slice contando las posiciones de derecha a izquierda';
+console.log(variable078.slice(-58,-2));
+//replace Devuelve una cadena de texto en donde remplaza un valor por otro
+           //primer parametro El texto que queremos reemplazar
+           //2do El texto que queremos poner
+
+const texto89 ='Hola soy Ana';
+console.log(texto89.replace('Ana', 'Arturo'));
+
+//split() Convierte una cadena de texto en un arreglo. Tenemos que especificar donde cortar cada elemento
+          //primer parametro el caracter que funciona como separador
+
+          const variable1995 ='Hola voy a pasar de ser una cadena de texto a un arreglo';
+          console.log(variable1995.split(''));
+
+          //toUpperCase() Devuelve una cadena de texto de puras MAYUSCULAS
+
+          console.log(variable1995.toUpperCase());
+          //toLowerCase() Devuelve la cadena de texto en minusculas
+          console.log(variable1995.toLocaleLowerCase());
