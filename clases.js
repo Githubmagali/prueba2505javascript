@@ -11,10 +11,13 @@ class Usuario {
     this.nombre = nombre;
     this.apellido = apellido;
   }
+
+  obtenerNombreCompleto(){
+    return `${this.nombre} ${this.apellido}`;
+  }
 }
 
 const usuario = new Usuario("Sofia", "Nievas");
-console.log(usuario);
+console.log(usuario.obtenerNombreCompleto());
 
-const usuario02 = new Usuario("Romina", "Fernandez");
-console.log(usuario02);
+
