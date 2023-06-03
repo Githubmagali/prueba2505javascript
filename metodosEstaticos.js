@@ -24,5 +24,7 @@ class Usuario1997{
     static borrar(id_usuario){
         console.log(`El usuario ${id_usuario} fue borrado`) 
     }
+    static actualizaciones=20;
     }
 Usuario1997.borrar(3);
+console.log(Usuario1997.actualizaciones);
